@@ -1,0 +1,57 @@
+
+
+.Card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 700px;
+    margin-left: 50px;
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 50px;
+    text-align: left;
+    padding-left: 0;
+    background-color: #fff;
+}
+
+.Card .Card-content {
+    line-height:1em;
+    width: 100%;
+    padding: 1rem;
+}
+
+.Card .Card-content .Card-category{
+    margin: 0;
+}
+.Card .Card-content .Card-title {
+    color: #292929;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.Card .Card-content .Card-description{
+    margin-top: 0.5em;
+}
+.Card .Card-content .Card-author {
+    color:#2a2a2a;
+    margin-top:1em;
+    margin-bottom:0.5em;
+}
+.Card .Card-content .Card-date{
+    margin-top:0.5em;
+    margin-bottom: 0;
+}
+.Card .Card-image{
+    max-width:152px;
+    display: flex;
+}
+.Card .Card-image a{
+    max-width:152px;
+    min-width:152px;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
