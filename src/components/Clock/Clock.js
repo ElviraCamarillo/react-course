@@ -26,7 +26,7 @@ export default class Clock extends Component {
   }
 //Se ejecuta el Render
   render() {
-    console.log('Desde el render')
+//   console.log('Desde el render')
     return (
       <div> 
         <p>Koder: {this.state.name}</p>

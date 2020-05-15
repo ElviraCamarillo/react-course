@@ -10,13 +10,13 @@ export default class Counter extends Component {
     }
 
     componentDidMount(){
-      this.countInterval = setInterval(() => this.count(6) , 1000)
+      this.countInterval = setInterval(() => this.count(8) , 1000)
     }
     
     componentDidUpdate(){
       if(this.state.counter < 20 ){
         if( this.state.counter % 8 === 0){
-          console.log(`EL numero ${this.state.counter} es múltiplo de 8`)
+          console.log(`El número ${this.state.counter} es múltiplo de 8`)
         }
       }else{
         clearInterval(this.countInterval)
