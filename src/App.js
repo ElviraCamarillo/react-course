@@ -9,7 +9,12 @@ import Card from './components/Card/Card'
 import Clock from './components/Clock/Clock';
 import Counter from './components/Counter'
 import Button from './components/Button'
+import Form from './components/Form';
+import CurrencyConverter from './components/ CurrencyConverter';
+import ConditionalRendering from  './components/ConditionalRendering'
+import ButtonEvent from './components/ButtonEvent'
 // import Note from './components/Note'
+
 
 const data = [
   {
@@ -75,15 +80,19 @@ export default class App extends Component {
             Bootcamp white - <strong>React</strong>
           </h1>
           <div>
-            <Clock/>  
+            {/* <Clock/>  
             <Counter step={2} finalCounter={100} cutCounter={2}/>
-            <Button />
+            <Button /> */}
+            {/* <Form/>
+            <CurrencyConverter/> */}
+            {/* <ConditionalRendering/> */}
+            <ButtonEvent/>
             {/* <Note/> */}
           </div>
         </header>  
-        <div className= 'Cards-container'>
+        {/* <div className= 'Cards-container'>
           {this._rendersCards()}
-        </div>
+        </div> */}
 
     </div>
     );

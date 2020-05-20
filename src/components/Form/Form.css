@@ -1,0 +1,9 @@
+.form-container {
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+}
+
+.form-container .form-input{
+    margin-left: 10px;
+}
