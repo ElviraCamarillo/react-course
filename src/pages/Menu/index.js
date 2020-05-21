@@ -37,6 +37,9 @@ export default class Menu extends Component {
                 <li>
                   <Link to="/currencyConverter" onClick={this.toggleMenu}>currencyConverter</Link>
                 </li>
+                <li>
+                  <Link to="/creditcards" onClick={this.toggleMenu}>CreditCards</Link>
+                </li>
               </ul>
             </div>
           </nav>

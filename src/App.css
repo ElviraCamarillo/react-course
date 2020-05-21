@@ -34,3 +34,7 @@ a {
   border-bottom: 0.4rem solid teal;
   cursor: not-allowed;
 }
+
+*{
+  box-sizing: border-box;
+}
