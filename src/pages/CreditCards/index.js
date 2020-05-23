@@ -12,13 +12,7 @@ export default class CreditCards  extends Component{
       cvv:''
     }
     this.handleInputChange =  this.handleInputChange.bind(this)
-    // this.handleInputFocus = this.handleInputFocus.bind(this)
   }
-
-  // handleInputFocus (event){
-  //   this.setState({focus: event.target.name})
-
-  // }
 
   handleInputChange({target: { name, value} }) {
     this.setState({
@@ -85,7 +79,7 @@ export default class CreditCards  extends Component{
               <span className="credit-card-label">Name</span>
               <strong className="credit-card-expiration">{this.state.name} </strong>
             </div>
-            
+
             <div className="group-card two-col">
               <div className=" middle">
                 <span className="credit-card-label">Expiration Date</span>
